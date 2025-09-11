@@ -2,7 +2,6 @@ import {
   useLayoutEffect,
   useRef,
   useCallback,
-  useEffect,
   useState,
 } from "react";
 import Lenis from "lenis";

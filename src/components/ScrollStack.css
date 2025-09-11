@@ -39,6 +39,40 @@
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   position: relative;
+
+  display: flex;
+  flex-direction: column; /* 세로 배치 */
+  justify-content: center; /* 세로 중앙 */
+  align-items: center; /* 가로 중앙 (원하면) */
+  text-align: center; /* 텍스트도 가운데 정렬 */
+
+  background: #fff; /* 기본 흰색 */
+  opacity: 1;
+}
+
+.card-1 {
+  background: #2a5f8d;
+  color: #fff;
+}
+
+.card-2 {
+  background: #a880a0;
+  color: #fff;
+}
+
+.card-3 {
+  background: #e19485;
+  color: #fff;
+}
+
+.card-4 {
+  background: #c1726f;
+  color: #fff;
+}
+
+.card-5 {
+  background: #b05857;
+  color: #fff;
 }
 
 .scroll-stack-end {

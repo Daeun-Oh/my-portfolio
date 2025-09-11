@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import Home from "../components/Home";
-import About from "../components/About";
+import Home from "../components/Profile";
+import About from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Footer";
 

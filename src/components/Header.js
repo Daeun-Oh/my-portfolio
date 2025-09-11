@@ -1,14 +1,14 @@
 import React from "react";
+import Title from "./Title";
 
 function Header() {
   return (
     <header className="header">
-      <h1>My Portfolio</h1>
+      <Title name="Daeun Oh" lan="eng" size={50} color="#fff" />
       <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
+        <a href="#profile">Profile</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
       </nav>
     </header>
   );

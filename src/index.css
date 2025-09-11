@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@font-face {
+    font-family: 'HsSantoki20';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hssantoki20 {
+  font-family: 'HsSantoki20', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
